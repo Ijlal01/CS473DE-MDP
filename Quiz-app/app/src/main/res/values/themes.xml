@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+    <style name="Theme.Quiz" parent="android:Theme.Material.Light.NoActionBar" />
+-->
+
+    <resources xmlns:tools="http://schemas.android.com/tools">
+
+        <style name="Theme.Quiz" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        </style>
+    </resources>
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/question1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which keyword is used to define a read-only variable in Kotlin?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+
+    <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question1TextView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp">
+
+        <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="var" />
+
+        <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="val" />
+
+        <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="const" />
+
+        <RadioButton
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="let" />
+    </RadioGroup>
+
+    <TextView
+            android:id="@+id/question2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which of the following are valid collection types in Kotlin?"
+            android:textSize="18sp"
+            android:layout_below="@id/radioGroup"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+            android:id="@+id/checkboxOption1"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="List"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/question2TextView"
+            android:layout_marginTop="16dp"/>
+
+    <CheckBox
+            android:id="@+id/checkboxOption2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Set"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/checkboxOption1"
+            android:layout_marginTop="8dp"/>
+
+    <CheckBox
+            android:id="@+id/checkboxOption3"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Map"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/checkboxOption2"
+            android:layout_marginTop="8dp"/>
+
+    <CheckBox
+            android:id="@+id/checkboxOption4"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Array"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/checkboxOption3"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_below="@id/checkboxOption4"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_below="@id/submitButton"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
