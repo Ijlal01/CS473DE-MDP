@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoodiePal</string>
+    <string name="phone_icon">Phone Icon</string>
+    <string name="email_icon">Email Icon</string>
+    <string name="add_details">Add Details</string>
+    <string name="add_recipe">add</string>
+    <string name="add_blog_post">add blog</string>
+    `
+</resources>
